@@ -6,3 +6,11 @@ During my work as .NET software developer, I was annoyed of slow IDE's like Visu
 Of course, unit tests will mostly executed within the CI pipeline but I want a test feedback as fast as possible. For big teams, the CI resources like build agents often are limited so the CI feedback to the developer takes a while.
 
 With this repository, I want to share a PowerShell script that helps me to run existing unit tests to ensure that I've not breaking any existing tests.
+
+# Current Features
+- Support NUnit Console Runner
+
+# Prospect
+- Parallel execution of multiple test assemblies
+- Get test runner from nuget
+- Support for MSTest
